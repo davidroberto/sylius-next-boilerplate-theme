@@ -22,6 +22,12 @@ CLIENT_URL_PAYMENT_SUCCESS=
 # the front end url for the stripe payment failure (by default "https://yourNextBoilerPlateThemeDomainName/cart/failed")
 CLIENT_URL_PAYMENT_FAILED=
 ```
+- In your admin, in the "channel", set this values:
+-- ignore shipping selection step where only one shipping method exists: TRUE
+-- ignore payment selection step where only one payment method exists: TRUE
+-- the account verification is mandatory: false
+
+- In your admin, foreach product, set the variant selection method to "Variant choice"
 
 ## Install and configure the next.js boilerplate theme
 
