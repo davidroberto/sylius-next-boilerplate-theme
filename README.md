@@ -39,7 +39,10 @@ NEXT_PUBLIC_STRIPE_PUBLIC_KEY=
 # Your Mailchimp Newsletter Form Action URL
 MAILCHIMP_URL=
 ```
-- install the node modules
+- install the node modules: 
+```
+yarn install
+```
 - launch the local dev server:
 
 ```
