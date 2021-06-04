@@ -1,4 +1,6 @@
-A next.js + Typescript boilerplate (blank) theme for the new Sylius API (includes Mailchimp contact form integration + stripe payment gateway integration). This is the first version so there is a lot of room for improvement. Y
+A next.js + Typescript boilerplate (blank) theme for the new Sylius API (includes Mailchimp contact form integration + stripe payment gateway integration). 
+
+This is the first version so there is a lot of room for improvements! 
 
 ## Install and configure the Sylius API
 
