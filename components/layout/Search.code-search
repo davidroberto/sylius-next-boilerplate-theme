@@ -1,0 +1,32 @@
+# Query: /panier
+# ContextLines: 1
+
+6 results - 4 files
+
+components/layout/Header.tsx:
+  77                  
+  78:                 <Link href={"/cart"}>
+  79                      <a>
+
+pages/cart/adresses.tsx:
+   55                  if (canOrderComplete(order)) {
+   56:                     router.push('/cart/paiement');
+   57                  } else {
+
+  110                          'title': 'My cart',
+  111:                         'path': '/cart'
+  112                      }
+
+pages/cart/index.tsx:
+  102              { customer ?
+  103:                 <Link href={'/cart/adresses'}>
+  104                      <a>Submit the cart</a>
+
+  111                      <p>or</p>
+  112:                     <Link href={'/cart/adresses'}>
+  113                          <a>Submit the cart without login</a>
+
+pages/cart/paiement.tsx:
+  70                          'title': 'My cart',
+  71:                         'path': '/cart'
+  72                      }
