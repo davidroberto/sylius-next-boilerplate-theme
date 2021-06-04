@@ -1,6 +1,6 @@
 A next.js + Typescript boilerplate (blank) theme for the new Sylius API (includes Mailchimp contact form integration + stripe payment gateway integration). 
 
-This is the first version so there is a lot of room for improvements! 
+This is the first version so there is a lot of room for improvements, bugfixes etc! 
 
 ## Install and configure the Sylius API
 
@@ -28,6 +28,8 @@ CLIENT_URL_PAYMENT_FAILED=
 -- the account verification is mandatory: false
 
 - In your admin, foreach product, set the variant selection method to "Variant choice"
+
+- The theme don't work well yet with taxons with a slug containing slashes, so remove them if you want to test the theme.
 
 ## Install and configure the next.js boilerplate theme
 
