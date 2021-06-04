@@ -49,6 +49,7 @@ MAILCHIMP_URL=
 ```
 yarn install
 ```
+- change the default locale in lib/config/locales.ts
 - launch the local dev server:
 
 ```
