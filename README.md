@@ -4,7 +4,7 @@ This is the first version so there is a lot of room for improvements!
 
 ## Install and configure the Sylius API
 
-- Install Sylius
+- Install Sylius (https://docs.sylius.com/en/1.9/book/installation/installation.html) 
 - Install the Sylius Extra API Plugin has to be installed in order to use the theme
 - If you want to use Stripe, create in your Stripe account a new payment_intent.succeeded hook, calling this URL: 
 https://yourSyliusAPIDomainName/api/v2/shop/payments/stripe/notify/success
