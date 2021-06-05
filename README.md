@@ -35,6 +35,8 @@ imports:
 -- ignore payment selection step where only one payment method exists: TRUE
 -- the account verification is mandatory: false
 
+- This theme was created with only one payment method and shipping method. So if you want to test theme theme, keep only one payment method and one shipping method.You you have multiple ones, you have to implement the select logic by your own.
+
 - In your admin, foreach product, set the variant selection method to "Variant choice"
 
 - configure the nelmio cors bundle to match your next js frontend url
