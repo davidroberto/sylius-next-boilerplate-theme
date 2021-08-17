@@ -1,6 +1,7 @@
 import { IProduct } from '../../../types/resources/productTypes';
 import { ITaxon } from "../../../types/resources/taxonTypes";
 import { getResource } from "../client";
+import { getLocale } from "../../config/locales";
 
 export const getAllProducts = async (): Promise<IProduct[]> => {
     const products = await getResource('shop/products', null, {
@@ -39,8 +40,9 @@ export const getLastProducts = async (limit: number): Promise<IProduct[]> => {
 }
 
 export const getProductByTranslatedSlug = async(slug: string): Promise<IProduct> => {
-    const product = await getResource('shop/products/by-slug/{slug}', {
-        'slug': slug
+    const product = await getResource('shop/products/by-slug/{slug}/{locale}', {
+        'slug': slug,
+        locale: getLocale(),
     },
     {
         'enabled': true,
