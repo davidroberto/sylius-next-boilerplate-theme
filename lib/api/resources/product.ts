@@ -8,7 +8,7 @@ export const getAllProducts = async (): Promise<IProduct[]> => {
         'itemsPerPage': 9999999,
         'variants.onHand[gt]': 0
     });
-    
+
     return products;
 }
 
@@ -46,8 +46,7 @@ export const getProductByTranslatedSlug = async(slug: string): Promise<IProduct>
         'enabled': true,
         'itemsPerPage': 9999999,
         'variants.onHand[gt]': 0
-    }
-);
+    });
     return product;
 }
 
