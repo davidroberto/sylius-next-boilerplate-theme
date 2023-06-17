@@ -2,8 +2,6 @@ A next.js + Typescript boilerplate (blank) theme for the new Sylius API (include
 
 This is the first version so there is a lot of room for improvements, bugfixes etc!
 
-You can see a real world implemententation of this theme here: https://www.cloralys-bijoux.fr/
-
 ## Install and configure the Sylius API
 
 - Install Sylius (https://docs.sylius.com/en/1.9/book/installation/installation.html) 
